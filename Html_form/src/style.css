@@ -1,0 +1,179 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background-color: #c3f0d1;
+	background-image: url(../img/bgimg.png);
+}
+/*for margin top color & pic*/
+.margin_top{
+	width: 75%;
+	margin: auto;
+	height: 13px;
+	background-color: #09cf46;
+	background-image: url(../img/bgimg.png);
+}
+/*for hedder top info & logo*/
+.hedder_top{
+	width: 75%;
+	margin: auto;
+	background-color: #008000;
+	height: 114px;
+}
+.logo_div{
+	width: 20%;
+	float: left;
+	text-align: right;
+}
+
+.logo{
+	height: 90px;
+	width: 90px;
+	margin-top: 13px;
+}
+.name_title{
+	width: 80%;
+	float: right;
+	text-align: center;
+	letter-spacing: 5px;
+	color: #fff;
+}
+.name_title a{
+	text-decoration: none;
+	color: #fff;
+}
+/*for navber */
+
+.manu{
+	list-style-type: none;
+	width: 75%;
+	margin:0 auto;
+	min-height: 48px;
+	background-color:#38b003; 
+	border: 2px solid #fff;
+}
+.manu .item_list{
+	display: inline;
+	float: left;
+}
+.manu .item_list a{
+	color: #fff;
+	text-decoration: none;
+	background-color: #38b003;
+	padding: 10px 30px;
+	display: block;
+
+}
+/*start form page & ipute field*/
+.form_page{
+	width: 75%;
+	margin: 0 auto;
+	background-color: #dcdcdc;
+}
+/*for single row input field*/
+.table_frist{
+	width: 95%;
+}
+.td_frist{
+	padding:10px 20px;
+	width: 30%;
+}
+.td_frist span{
+	color: red;
+}
+.td_second{
+	padding:10px 20px;
+	width: 2%;
+	text-align: center;
+}
+.td_thard{
+	padding:10px 20px;
+	width: 68%;
+}
+.td_thard input{
+	width: 100%;
+	border-radius: 5px;
+	border: 1px solid #006699;
+}
+.td_thard select{
+	width: 20%;
+	border-radius: 5px;
+	border: 1px solid #006699;
+}
+.td_thard .redio_normal{
+	width: 5%;
+	border: 1px solid #006699;
+}
+/*for dubble row input field*/ 
+.table_mid{
+	width: 50%;
+	float: left;
+	background-color: #dcdcdc;
+	border: 2px solid #bfb1b1;
+}
+.top_table_hadder{
+	font-size: 1rem;
+	width: 100%;
+	float: left;
+	padding: 0 20px;
+	background-color: #a2a2a2;
+	color: #000;
+	text-align: center;
+	font-family: fantasy;
+}
+.top_table_hadder span{
+	color: red;
+}
+.td_frist_mid{
+	padding:10px 20px;
+	width: 30%;
+}
+.td_second_mid{
+	padding:10px 20px;
+	width: 68%;
+}
+.td_second_mid input{
+	width: 100%;
+	border-radius: 5px;
+	border: 1px solid #006699;
+}
+/*set last input field*/
+.end_table{
+	width: 95%;
+	height: 150px;
+	text-align: center;
+	margin: 0 auto;
+}
+/*set devloper name*/
+.end{
+	height: 50px;
+	color: white;
+	width: 75%;
+	margin: auto;
+	background-color: #09cf46;
+	text-align: center;
+	margin-bottom: 0;
+}
+.end p{
+	padding-top: 15px;
+	margin: 0;
+}
+/*for show all regusation list*/
+.form_page_list{
+	width: 75%;
+	margin: 0 auto;
+	background-color: #dcdcdc;
+	height: 400px;
+}
+.table_frist_list{
+	width: 80%;
+	margin: 0 auto;
+}
+/*for set registation list table boder*/
+.table_frist_list .table_broder{
+	text-align: center;
+	border: 2px solid black;
+}
+.table_broder a{
+	margin: 0 3px;
+	padding: 2px 3px;
+}
